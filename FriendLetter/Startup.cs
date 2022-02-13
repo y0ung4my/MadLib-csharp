@@ -35,6 +35,7 @@ namespace FriendLetter
 
       app.UseEndpoints(routes =>
       {
+        app.UseDeveloperExceptionPage(); // for debugging, adds a more detailed error message
         routes.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
       });
 
