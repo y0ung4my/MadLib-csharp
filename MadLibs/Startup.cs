@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 //It's standard practice to use a namespace that reflects the name of the project.
-namespace FriendLetter
+namespace MadLibs
 {
   public class Startup
   {
@@ -41,7 +41,7 @@ namespace FriendLetter
 
       app.Run(async (context) =>
       {
-        await context.Response.WriteAsync("Hello World!");
+        await context.Response.WriteAsync("Load Failed!");
       });
     }
   }

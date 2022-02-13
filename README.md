@@ -1,1 +1,1 @@
-This is a postcard-writing application built as part of Epicodus' lessons on C# using ASP.NET Core. 
+This is a MadLibs application built as part of Epicodus' lessons on C# using ASP.NET Core. 
