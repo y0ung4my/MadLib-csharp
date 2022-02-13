@@ -14,7 +14,8 @@ namespace FriendLetter.Controllers
 
     // Below is the root path, or homepage
     [Route("/")]
-    public string Letter() { return "Our virtual postcard will go here soon!"; }
+    public ActionResult Letter() { return View(); }
+    // the above ActionResult is a built-in MVC class that handles rendering views
 
   }
 }
