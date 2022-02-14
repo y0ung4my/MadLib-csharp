@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   </head>
   <body>
-    <h1> Create MadLib</h1>
+    <h1> Create a Complex MadLib </h1>
     <!-- below was action = /postcard before -->
-    <form action="/madlib" method="post">
+    <form action="/madlib1" method="post">
 
       <!-- below was sender / recipient ids and names -->
       <label for="adjective1">Adjective </label>
@@ -46,6 +46,24 @@
 
       <label for="adjective4">Adjective</label>
       <input id="adjective4" name="adjective4" type="text">
+
+      <button type="submit">Go!</button>
+    </form>
+
+    <h1> Create a Simple MadLib </h1>
+    <form action="/madlib2" method="post">
+
+      <label for="adjective1">Adjective </label>
+      <input id="adjective1" name="adjective1" type="text">
+
+      <label for="noun1">Noun</label>
+      <input id="noun1" name="noun1" type="text">
+
+      <label for="verbPT1">Verb Past Tense </label>
+      <input id="verbPT1" name="verbPT1" type="text">
+
+      <label for="adverb1">Adverb </label>
+      <input id="adverb1" name="adverb1" type="text">
 
       <button type="submit">Go!</button>
     </form>
